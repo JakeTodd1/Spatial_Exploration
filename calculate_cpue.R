@@ -49,7 +49,7 @@ cpue_data <- drift_data %>%
     `Drifting or Holding Station`,
     `Drift Time (hrs)`,
     `Total Angler Hrs`,
-    `Total . Anglers Fishing`,
+    `Total . Anglers Fishing`,  # period in name matches source CSV exactly
     ST_LatDD,
     ST_LonDD,
     End_LatDD,
@@ -125,7 +125,7 @@ final_data <- cpue_data %>%
     drift_type        = `Drifting or Holding Station`,
     drift_time_hrs    = `Drift Time (hrs)`,
     total_angler_hrs  = `Total Angler Hrs`,
-    total_anglers     = `Total . Anglers Fishing`,
+    total_anglers     = `Total . Anglers Fishing`,  # period in name matches source CSV exactly
     start_lat         = ST_LatDD,
     start_lon         = ST_LonDD,
     end_lat           = End_LatDD,
